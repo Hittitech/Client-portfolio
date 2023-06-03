@@ -184,6 +184,12 @@ span{
     margin: 2rem 0 3rem 0;
     font-weight: 490;
 }
+.carousel-item img{
+    width: 500px;
+    height: 500px;
+    border-radius: 5rem;
+    border: 5px solid black;
+}
 .margin{
     margin-top: 20px;
 }
@@ -402,7 +408,11 @@ span{
         .footer{
             padding: 3rem 3%;
         }
-        
+        .carousel-item img{
+            width: 400px;
+            height: 400px;
+        }
+
 
     }
     @media (max-width:768px){
@@ -473,6 +483,11 @@ span{
             grid-template-columns: repeat(2,1fr);
 
         }
+        .carousel-item img{
+            width: 300px;
+            height: 300px;
+        }
+
     }
 
 
@@ -484,6 +499,10 @@ span{
     @media (max-width:450px){
         html{
             font-size: 50%;
+        }
+        .carousel-item img{
+            width: 200px;
+            height: 200px;
         }
         .contact form .input-box input{
             width: 100%;
