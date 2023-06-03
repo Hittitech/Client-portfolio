@@ -513,6 +513,9 @@ span{
             width: 90vw;
             
         }
+        .Carousel-section{
+            min-height:29vh;
+        }
         .about-img img{
             width: 90vw;
         }
